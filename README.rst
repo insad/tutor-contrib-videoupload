@@ -13,6 +13,13 @@ to MinIO. Besides, you can upload poster images for uploaded videos.
 .. image:: ./screenshots/03-poster-images.png
     :alt: Poster images for uploaded videos
 
+Only uploading videos to MinIO will not be enough for a complete video pipeline. But
+this will be an important starting point for an external video pipeline server, that
+can pick up uploaded videos from the MinIO bucket, process them (generate different
+resolutions, create an HLS encoding ladder, generate transcriptions etc., putting
+generated assets back to MinIO), and making the right API calls to update the edxval
+records so Studio can keep track and use them.
+
 Installation
 ------------
 
