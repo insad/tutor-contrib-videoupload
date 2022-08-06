@@ -1,0 +1,2 @@
+recursive-include tutorvideoupload/patches *
+recursive-include tutorvideoupload/templates *

@@ -1,0 +1,2 @@
+# Enable image upload
+(./manage.py lms waffle_switch --list | grep videos.video_image_upload_enabled) || ./manage.py lms waffle_switch --create videos.video_image_upload_enabled on
