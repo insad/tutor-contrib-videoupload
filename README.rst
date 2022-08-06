@@ -28,7 +28,7 @@ Rebuild the openedx image:
 
 .. code-block:: bash
 
-    tutor images buid openedx
+    tutor images build openedx
 
 Set Django flag so you can upload poster images:
 
