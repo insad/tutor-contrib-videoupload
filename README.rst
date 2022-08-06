@@ -24,7 +24,7 @@ Download and enable the plugin:
     tutor plugins enable videoupload
     tutor config save
 
-  Rebuild the openedx image:
+Rebuild the openedx image:
 
 .. code-block:: bash
 
@@ -82,7 +82,7 @@ Reference
 ---------
 
 For a bigger discussion about this plugin, troubleshooting etc., please take
-a look at <https://discuss.openedx.org/t/getting-video-upload-to-minio-working-in-studio/7959/2>`_.
+a look at https://discuss.openedx.org/t/getting-video-upload-to-minio-working-in-studio/7959/2.
 
 License
 -------
