@@ -26,8 +26,11 @@ Installation
 Download and enable the plugin:
 
 .. code-block:: bash
+    - for nutmeg:
+        pip install git+https://github.com/insad/tutor-contrib-videoupload@14.0.0
+    - for olive:
+        pip install git+https://github.com/insad/tutor-contrib-videoupload@15.0.0
 
-    pip install git+https://github.com/insad/tutor-contrib-videoupload
     tutor plugins enable videoupload
     tutor config save
 
