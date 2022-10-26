@@ -1,2 +1,2 @@
 # Patch videos.py file
-RUN curl -fsSL https://github.com/insad/edx-platform/commit/74f6ef4efbe06839cb574479166ec8c9fb20cad8.patch | git am
+RUN curl -fsSL https://github.com/insad/edx-platform/commit/49b8357f588ce1c9e74815fa298e52ba18bb670c.patch | git am
