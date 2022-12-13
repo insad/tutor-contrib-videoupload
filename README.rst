@@ -25,17 +25,9 @@ Installation
 
 Download and enable the plugin:
 
-Nutmeg:
-
 .. code-block:: bash
 
-    pip install git+https://github.com/insad/tutor-contrib-videoupload@v14.0.0
-
-Olive:
-
-.. code-block:: bash
-
-    pip install git+https://github.com/insad/tutor-contrib-videoupload@v15.0.0
+    pip install git+https://github.com/insad/tutor-contrib-videoupload
 
 .. code-block:: bash
 
@@ -52,7 +44,7 @@ Set Django flag so you can upload poster images:
 
 .. code-block:: bash
 
-    tutor local init --limit=videoupload
+    tutor local do init --limit=videoupload
 
 Start Tutor:
 
